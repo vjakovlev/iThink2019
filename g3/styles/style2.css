@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.login {
+	display: inline-block;
+
+	font-size: 10px;
+
+	/*border-top: 3px dotted green;
+	border-bottom: 3px dashed green;*/
+
+	border: 5px solid black;
+
+	padding: 20px;
+
+	margin-right: 20px;
+
+}
+
+.register {
+	display: inline-block;
+	border: 5px solid black;
+}
+
+img {
+	width: 200px;
+	border-radius: 50%;
+}
+
+#img-container {
+	display: inline-block;
+
+
+
+	border: 3px solid black;
+
+
+
+	border-radius: 50%;
+
+}
+

@@ -1,8 +1,57 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+/*add custom fonts*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500i,700i&display=swap');
+
+/*body {
+	background-image: url("https://i.pinimg.com/originals/7b/17/cc/7b17ccaae8322e40664622ae90690fb2.jpg");
+	background-repeat: repeat; /* repeat, space, no-repeat*/
+	background-attachment: fixed;
+}*/
+
+h1 {
+	font-size: 20px;
+}
+
+h1:hover {
+	font-size: 50px;
+}
 
 h3 {
-	font-size: 80px;
-	/*font-family: arial;*/
 	font-family: 'Roboto Mono', monospace;
+	font-size: 40px;
+	color: purple;
+	background-color: yellow;
+}
+
+#first_header {
+	background-color: orange;
+}
+
+p {
+	font-size: 30px;
+	font-weight: bold; /*normal, 100-900 depends on the font*/
+	font-style: italic; /*normal*/
+	text-decoration: underline; /*none, overline, line-through*/
+}
+.shadow {
+	font-size: 70px;
 	color: green;
+	text-shadow: 20px 15px 10px orange;
+}
+#text {
+	background-color: pink;
+	text-align: right;
+}
+
+#hyperlink {
+	font-size: 30px;
+	font-family: 'Roboto Mono', monospace;
+	text-decoration: none;
+	font-weight: bold;
+	color: yellow;
+}
+
+#hyperlink:hover {
+	color: black;
+	background-color: orange;
+	text-decoration: underline;
 }

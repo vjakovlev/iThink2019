@@ -1,4 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap');
+
+
+body {
+	background-image: url("../images/background.jpg");
+}
+
 h3 {
-	color: blue;
+	font-family: 'Zhi Mang Xing', cursive;
 	font-size: 35px;
+}
+
+#viktor {
+	color: blue;
+}
+
+#nela {
+	color: orange;
+}
+
+.class1 {
+	font-size: 50px;
+}
+
+.pink-color {
+	color: pink;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.bold {
+	font-weight: normal;
+}
+
+.remove-underline {
+	font-weight: normal;
+	text-decoration: none;
 }
